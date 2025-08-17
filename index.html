@@ -134,7 +134,7 @@
                 tgid: tg.initDataUnsafe?.user?.id || null
             };
 
-            await fetch('https://n8n.bitcoinlimb.com/webhook-test/registration-irfit', {
+            await fetch('https://n8n.bitcoinlimb.com/webhook/registration-irfit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
